@@ -17,6 +17,7 @@ RUN apt-get update -qqy \
     bzip2 \
     ca-certificates \
     openjdk-8-jre-headless \
+    tzdata \
     sudo \
     unzip \
     wget \
