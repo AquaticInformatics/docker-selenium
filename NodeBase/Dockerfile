@@ -17,6 +17,7 @@ RUN echo "${TZ}" > /etc/timezone \
 #==============
 RUN apt-get update -qqy \
   && apt-get -qqy install \
+    locales \
     xvfb \
   && rm -rf /var/lib/apt/lists/*
 
